@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Comparador de Texto</string>
+    <string name="ingrese_texto">Ingrese un texto</string>
+    <string name="text_button">Comparar</string>
+    <string name="texto_edit_1">Ingrese el texto</string>
+    <string name="texto_edit_2">Ingrese el texto nuevamente</string>
+    <string name="title_activity_comparador">Comparador</string>
+
+</resources>
