@@ -43,34 +43,21 @@ class MainActivity(val next: MainViewModel) : AppCompatActivity() {
 
 
     }
-            @SuppressLint("SetTextI18n")
-            private fun comparando (){
-                binding.button1.setOnClickListener {
-                if (editText1 == editText2){
-                    textIn.text = "Los textos ingresados son iguales"
-                    return@setOnClickListener
-                }
-                else{
-                    textIn.text = "Los textos ingresados no coinciden"
-                    return@setOnClickListener
-                }
-            }
 
-           /* //mainViewModel.comparador.observe(this)
-            button1.setOnClickListener { mainViewModel.comparador }
-            return@setOnClickListener*/
-
-        }/*
-         fun comparador(text: String) {
-            return if () {
+    @SuppressLint("SetTextI18n")
+    private fun comparando() {
+        binding.button1.setOnClickListener {
+            if (editText1 == editText2) {
                 textIn.text = "Los textos ingresados son iguales"
-
+                return@setOnClickListener
             } else {
                 textIn.text = "Los textos ingresados no coinciden"
-            }*/
+                return@setOnClickListener
+            }
         }
-
-    //mainViewModel.updateText()
-        //return@setOnClickListener
-
-
+    }
+}
+/* Esto es lo que pude hacer. La app no funciona. Pero probé miles de cosas y no logro que funcione.
+Tengo hecho también una app sin MVVM, pero que funciona. Espero me puedan ayudar encontrar el camino
+para corregir y que funcione. Muchas gracias.
+ */
